@@ -6,7 +6,7 @@
 ### is a number.
 
 ### DEPENDENCIES:
-### gplearn, sklearn, numpy, pandas, mpi4py (for parallel computing)
+### gplearn, sklearn, numpy, pandas
 
 #from mpi4py import MPI
 import argparse
