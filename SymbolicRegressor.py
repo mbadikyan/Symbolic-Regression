@@ -1,20 +1,20 @@
-### SymbolicRegressor program by Minas Badikyan, Research Scholar, AFRL, Summer 2020
+"""
+SymbolicRegressor program by Minas Badikyan, Research Scholar, AFRL, Summer 2020
 
-### REQUIREMENTS:
-### Must provide the filepath of a .csv file with no missing data,
-### where the first row is composed of column labels, and every other entry
-### is a number.
+REQUIREMENTS:
+Must provide the filepath of a .csv file with no missing data,
+where the first row is composed of column labels, and every other entry
+is a number.
 
-### DEPENDENCIES:
-### gplearn, sklearn, numpy, pandas
+DEPENDENCIES:
+gplearn, sklearn, numpy, pandas
+"""
 
-#from mpi4py import MPI
 import argparse
 from gplearn.genetic import SymbolicRegressor
 from gplearn.functions import make_function
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
-#from sklearn.cross_validation import StratifiedKFold
 import numpy as np
 import pandas as pd
 
