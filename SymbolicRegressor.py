@@ -8,6 +8,14 @@ is a number.
 
 DEPENDENCIES:
 gplearn, sklearn, numpy, pandas
+
+REFERENCES:
+
+gplearn documentation: 
+https://gplearn.readthedocs.io/en/stable/
+
+Scikit Learn:
+https://scikit-learn.org/stable/
 """
 
 import argparse
