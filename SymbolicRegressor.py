@@ -251,7 +251,6 @@ def main():
 
     models = []
     R2vals = []
-    #print("Displaying {} models from K-fold cross-validation...".format(args.k_fold))
     for train_index, test_index in kf.split(X_train):
         x_train, x_test = X_train[train_index], X_train[test_index]
         y_train, y_test = Y_train[train_index], Y_train[test_index]
