@@ -257,10 +257,6 @@ def main():
 
         est_gp.fit(x_train, y_train)
         r2 = est_gp.score(x_test, y_test)
-        #print("====================")
-        #print(est_gp._program)       #prints fittest program for an individual k-fold
-        #print(r2)  #prints R-squared value of model on test set
-        #print("====================")
         models.append(est_gp)
         R2vals.append(r2)
 		
