@@ -245,12 +245,6 @@ def main():
     Y_train = train_data[:, -1]
     del data
 
-    '''
-    skf = StratifiedKFold(y_data,
-                          n_folds = args.k_fold,
-                          shuffle = True,
-                          random_state = args.random_state)
-    '''
     kf = KFold(n_splits = args.k_fold,
                random_state = args.random_state,
                shuffle = True)
